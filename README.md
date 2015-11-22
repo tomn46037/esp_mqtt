@@ -1,6 +1,10 @@
 **esp_mqtt**
 ==========
-![](https://travis-ci.org/tuanpmt/esp_mqtt.svg?branch=master)
+
+Updated - 2015-11-22:  This was failing when I tried to use it with Adafruit.io.  I had to make a few changes.. it now builds and is
+able to publish and subscribe to feeds.  (I don't have SSL working - YET!)
+
+
 
 This is MQTT client library for ESP8266, port from: [MQTT client library for Contiki](https://github.com/esar/contiki-mqtt) (thanks)
 
