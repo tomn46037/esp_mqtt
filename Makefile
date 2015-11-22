@@ -9,7 +9,7 @@
 # relative to the project directory
 BUILD_BASE	= build
 FW_BASE = firmware
-ESPTOOL = tools/esptool/esptool.py
+ESPTOOL ?= tools/esptool/esptool.py
 
 
 # name for the target project
