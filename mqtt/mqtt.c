@@ -79,6 +79,7 @@ mqtt_dns_found(const char *name, ip_addr_t *ipaddr, void *arg)
 	{
 		os_memcpy(client->pCon->proto.tcp->remote_ip, &ipaddr->addr, 4);
 		if(client->security){
+			espconn_secure_set_size(ESPCONN_CLIENT,SSL_PACKET_SIZE);
 			espconn_secure_connect(client->pCon);
 		}
 		else {
