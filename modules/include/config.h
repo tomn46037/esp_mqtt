@@ -43,7 +43,7 @@ typedef struct{
 	uint8_t mqtt_host[64];
 	uint32_t mqtt_port;
 	uint8_t mqtt_user[32];
-	uint8_t mqtt_pass[32];
+	uint8_t mqtt_pass[45];
 	uint32_t mqtt_keepalive;
 	uint8_t security;
 } SYSCFG;
