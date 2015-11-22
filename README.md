@@ -1,7 +1,7 @@
 **esp_mqtt**
 ==========
 
-Updated - 2015-11-22:  This was failing when I tried to use it with Adafruit.io.  I had to make a few changes.. it now builds and is
+**Updated** - 2015-11-22:  This was failing when I tried to use it with Adafruit.io.  I had to make a few changes.. it now builds and is
 able to publish and subscribe to feeds.  The most recent update includes changes to get SSL working for Adafruit.io.
 
 
